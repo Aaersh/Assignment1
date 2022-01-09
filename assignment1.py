@@ -55,5 +55,5 @@ color.remove("Black")
 print(color)
 
 color1 = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
-color1 = color1[:3] + ['Purple'] + color1[3+2:]   #index of 4th element is 3, performed slicing to replace black and pink with purple
+color1[3:5] = ["Purple"]
 print(color1)
