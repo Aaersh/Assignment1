@@ -1,13 +1,13 @@
 #****************************************** QUESTION 1 ***********************************************
 
 inputstring = "Python is a case sensitive language."
-print(len(inputstring))                                             #to Find the length of the input string.
-print(inputstring[::-1])                                            #to Reverse the order of the string
-newstring = inputstring[10:26]                                      #to store “a case sensitive” in new string.
+print("length of the input string is", len(inputstring))                             #to Find the length of the input string.
+print(inputstring[::-1])                                                             #to Reverse the order of the string
+newstring = inputstring[10:26]                                                       #to store “a case sensitive” in new string.
 print(newstring)
-print(inputstring.replace("a case sensitive", "object oriented"))   #to Replace “a case sensitive” with “object oriented”.
-print(inputstring.index("a"))                                       #to Find index of substring “a” in the given input string.
-print(inputstring.replace(" ", ""))                                 #to Remove the white spaces from the given input string.
+print(inputstring.replace("a case sensitive", "object oriented"))                    #to Replace “a case sensitive” with “object oriented”.
+print("Indedx of a in input string is", inputstring.index("a"))                      #to Find index of substring “a” in the given input string.
+print(inputstring.replace(" ", ""))                                                  #to Remove the white spaces from the given input string.
 
 
 
@@ -36,11 +36,11 @@ print("Hey,",name, "Here!\nMy SID is", sid, "\nI am from",department, "departmen
 
 a = 56
 b = 10
-print(a&b)
-print(a|b)
-print(a^b)
-print(a<<2, b<<2)
-print(a>>2, b>>4)
+print("a&b is", a&b)
+print("a|b is", a|b)
+print("a^b is", a^b)
+print("Left shifting both a and b with two bits gives a = ", a<<2, "and b =", b<<2)
+print("Right shifting a with 2 bits and b with  4 bits gives a =", a>>2, "and b =", b>>4)
 
 
 
