@@ -1,11 +1,10 @@
 *************************************Question 1*************************************
-36
+length of the input string is 36
 .egaugnal evitisnes esac a si nohtyP
 a case sensitive
 Python is object oriented language.
-10
+Indedx of a in input string is 10
 Pythonisacasesensitivelanguage.
-
 
 
 
@@ -20,11 +19,11 @@ I am from Computer Science and Engineering department and my CGPA is 9.9
 
 
 *************************************Question 3*************************************
-8
-58
-50
-224 40
-14 0
+a&b is 8
+a|b is 58
+a^b is 50
+Left shifting both a and b with two bits gives a =  224 and b = 40
+Right shifting a with 2 bits and b with  4 bits gives a = 14 and b = 0
 
 
 
@@ -43,7 +42,7 @@ the greatest of three numbers is 45
 
 *************************************Question 5*************************************
 Enter the string
-hello bois my name is aaersh
+hello everyone, my name is aaersh.
 Yes, the word “name” is present in the string.
 
 
